@@ -1,0 +1,73 @@
+{
+    "default_model": "gemini-2.5-flash",
+    "default_provider": "gemini",
+    "gemini": {
+        "api_key": "YOUR_GEMINI_API_KEY",
+        "default_model": "gemini-2.5-flash",
+        "models": [
+            "gemini-3-pro-preview",
+            "gemini-3-flash-preview",
+            "gemini-2.5-flash",
+            "gemini-2.5-pro",
+            "gemini-1.5-flash-latest"
+        ]
+    },
+    "chatgpt": {
+        "api_key": "YOUR_CHATGPT_API_KEY",
+        "default_model": "gpt-4o",
+        "models": [
+            "gpt-4o-mini",
+            "gpt-4o",
+            "gpt-4-turbo",
+            "gpt-3.5-turbo",
+            "gpt-5.2-2025-12-11",
+            "gpt-5.2-pro-2025-12-11",
+            "gpt-5-mini-2025-08-07",
+            "gpt-oss-120b"
+        ]
+    },
+    "ollama": {
+        "api_key": "http://localhost:11434",
+        "default_model": "llama3",
+        "models": [
+            "llama3",
+            "llama3.1",
+            "gpt-oss",
+            "gpt-oss:120b-cloud",
+            "qwen3",
+            "qwen3:14b"
+        ]
+    },
+    "openrouter": {
+        "api_key": "YOUR_OPENROUTER_API_KEY",
+        "default_model": "z-ai/glm-4.5-air:free",
+        "models": [
+            "z-ai/glm-4.5-air:free",
+            "kwaipilot/kat-coder-pro",
+            "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+            "meta-llama/llama-3.3-70b-instruct:free",
+            "qwen/qwen3-coder:free",
+            "openai/gpt-oss-120b:free",
+            "meta-llama/llama-3.1-405b-instruct:free",
+            "z-ai/glm-4.7-flash",
+            "openai/gpt-5.2-chat",
+            "openai/gpt-5.2-pro",
+            "openai/gpt-5.2",
+            "google/gemini-2.5-flash",
+            "google/gemini-2.5-pro",
+            "google/gemini-3-pro-preview",
+            "anthropic/claude-opus-4.5",
+            "anthropic/claude-haiku-4.5",
+            "anthropic/claude-sonnet-4.5",
+            "anthropic/claude-opus-4.1",
+            "anthropic/claude-sonnet-4",
+            "x-ai/grok-4.1-fast",
+            "x-ai/grok-4.1-fast",
+            "x-ai/grok-4",
+            "x-ai/grok-3-mini",
+            "x-ai/grok-3"
+        ]
+    }
+}
+
+
